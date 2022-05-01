@@ -12,7 +12,7 @@
   "MenuBackgroundDisplayMode": "Default",
   "MenuBackgroundFrameInterval": 50,
   "IntroImages": [],
-  "UpdateUrl": "https://github.com/KillaGengar/Eldercode-Patches/tree/main/resources",
+  "UpdateUrl": "https://github.com/KillaGengar/Eldercode-Patches/blob/main/resources/Updater/update.php",
   "MouseCursor": "",
   "MusicFadeTimer": 1500,
   "EnableContextMenus": true,
