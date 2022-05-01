@@ -1,0 +1,27 @@
+Project - Elder Code
+[Version 0.0.0.0.7.5] 
+(Patch Notes)
+
+- Added "Weapon" Slime Sword.
+- Added "Crafting Recipe" Slime Sword.
+- Adjusted Slime NPCs, each NPC will now drop a different piece of Slime Sword.
+- Added Patch Notes [Event] - Triggered by player login, displays in chat.
+- Added “Item” Slime Handle.
+- Added “Item” Slime Blade.
+- Added “Item” Blue Slime Essence.
+- Updated Crafting Bench apperence.
+- Fixing Quest [Event] bugs & cleaning up Grammer. 
+- Added {Paperdoll} to "Weapon" Wooden Bow, Will now display on player.
+- Added {Paperdoll} to "Weapon" Slime Sword, Will now display on player.
+- Added {Paperdoll} to "Item" Fishing Pole, Will now display on player.
+- Added {Paperdoll} to "Armor" Robe, Will now display on player.
+- Adjusted "Weapon" Wooden Bow - Damage from 2 to 4.
+- Added "Another Drink" quest to Silversands Inn.
+- Added Sounds to multiple spells. - "Slime Splash" "Slime Attack" "Mystic Channel".
+- Added Starting "Items" for Cleric Class.
+- Added “Weapon” Wooden Staff.
+- Added {Paperdoll} to "Weapon" Wooden Staff, Will now display on player.
+- Added attack animation for Wooden Staff.
+- Added Way Point System (Allows teleporting to different maps and towns.)
+- Added "Slime Power" quest to Silversands.
+- Remapped Silversands buildings. 

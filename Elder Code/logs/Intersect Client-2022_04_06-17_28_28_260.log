@@ -1,0 +1,93 @@
+﻿2022-04-06 22:28:28.504 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:29.650 [Info] Connecting to 38.129.153.213:5400...
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:30.118 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:30.195 [Debug] approval Time=2632588 Offset=63784878277505 Real=63784880910094
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:30.195 [Debug] local Time=2632588 Offset=63784878277607 Real=63784880910195
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:30.195 [Debug] real delta=101
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:30.196 [Debug] this.Statistics.Ping=0 NCPing=5
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:30.198 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/38.129.153.213:5400].
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:30.198 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.503 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.640 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.641 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.642 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.642 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.642 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.642 [Info] Clearing instance... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.643 [Info] Releasing context lock... (2ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.643 [Info] Released. (2ms)
+
+--------------------------------------------------------------------------------
+2022-04-06 22:28:58.643 [Error] Exception: Error loading json ui for InGame.CharacterWindow
+    Stack:    at Intersect.Client.Framework.Gwen.Control.Base.<>c__DisplayClass205_0.<LoadJsonUi>b__0(String rawLayout, Boolean cacheHit)
+   at Intersect.Client.Framework.File_Management.GameContentManager.<>c__DisplayClass60_0.<GetLayout>g__onLayoutReady|0()
+   at Intersect.Client.Framework.File_Management.GameContentManager.<>c__DisplayClass60_0.<GetLayout>g__addChangeListener|1(String targetPath)
+   at Intersect.Client.Framework.File_Management.GameContentManager.<>c__DisplayClass60_0.<GetLayout>g__addCreateOrChangeListener|2(String targetPath, Boolean createIfMissing)
+   at Intersect.Client.Framework.File_Management.GameContentManager.GetLayout(UI stage, String name, String resolution, Boolean skipCache, Action`2 layoutHandler)
+   at Intersect.Client.Framework.Gwen.Control.Base.LoadJsonUi(UI stage, String resolution, Boolean saveOutput)
+   at Intersect.Client.Interface.Game.Character.CharacterWindow..ctor(Canvas gameCanvas)
+   at Intersect.Client.Interface.Game.Menu..ctor(Canvas gameCanvas)
+   at Intersect.Client.Interface.Game.GameInterface.InitGameGui()
+   at Intersect.Client.Interface.Game.GameInterface..ctor(Canvas canvas)
+   at Intersect.Client.Interface.Interface.InitGwen()
+   at Intersect.Client.Interface.Interface.DrawGui()
+   at Intersect.Client.Core.Graphics.Render(TimeSpan deltaTime)
+   at Intersect.Client.MonoGame.IntersectGame.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DoDraw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction)
+   at Intersect.Client.Core.ClientContext.InternalStart()
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown)
+
+Caused By
+JsonReaderException: Unexpected character encountered while parsing value: b. Path 'InnerPanel.Children.EquipmentItem5.Texture', line 924, position 18.
+    Stack:    at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Boolean writeChildren, Boolean writeDateConstructorAsDate, Boolean writeComments)
+   at Newtonsoft.Json.JsonWriter.WriteToken(JsonReader reader, Boolean writeChildren)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateJToken(JsonReader reader, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Intersect.Client.Framework.Gwen.Control.Base.<>c__DisplayClass205_0.<LoadJsonUi>b__0(String rawLayout, Boolean cacheHit)
+
+
+--------------------------------------------------------------------------------

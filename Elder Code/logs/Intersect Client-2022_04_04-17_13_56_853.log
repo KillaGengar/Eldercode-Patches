@@ -1,0 +1,138 @@
+﻿2022-04-04 22:13:57.096 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.154 [Info] Connecting to 38.129.153.213:5400...
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.579 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.655 [Debug] approval Time=5916394 Offset=63784701322168 Real=63784707238562
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.655 [Debug] local Time=5916394 Offset=63784701322261 Real=63784707238655
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.655 [Debug] real delta=92
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.656 [Debug] this.Statistics.Ping=0 NCPing=7
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.657 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/38.129.153.213:5400].
+
+--------------------------------------------------------------------------------
+2022-04-04 22:13:58.658 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-04 22:14:02.217 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-04-04 22:14:02.484 [Debug] received epp: 5919972
+
+--------------------------------------------------------------------------------
+2022-04-04 22:14:50.654 [Debug] received epp: 5968464
+
+--------------------------------------------------------------------------------
+2022-04-04 22:14:50.703 [Debug] received epp: 5968464
+
+--------------------------------------------------------------------------------
+2022-04-04 22:16:43.526 [Debug] received epp: 6081338
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:25.122 [Debug] received epp: 6182934
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:25.337 [Debug] received epp: 6182934
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:32.985 [Debug] received epp: 6190793
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:34.772 [Debug] received epp: 6192589
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:35.684 [Debug] received epp: 6193496
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:39.884 [Debug] received epp: 6197683
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:40.135 [Debug] received epp: 6197948
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:40.869 [Debug] received epp: 6198682
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:42.534 [Debug] received epp: 6200355
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:42.586 [Debug] received epp: 6200355
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:44.922 [Debug] received epp: 6202730
+
+--------------------------------------------------------------------------------
+2022-04-04 22:18:45.123 [Debug] received epp: 6202730
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.862 [Error] Received unhandled exception from Name:Intersect Client.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.863 [Error] InvalidOperationException: Collection was modified; enumeration operation may not execute.
+    Stack:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<ConcatIterator>d__59`1.MoveNext()
+   at System.Linq.Enumerable.<ConcatIterator>d__59`1.MoveNext()
+   at System.Linq.Enumerable.<ConcatIterator>d__59`1.MoveNext()
+   at System.Linq.Enumerable.<ConcatIterator>d__59`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Intersect.Client.Interface.Debugging.DebugWindow.<>c.<CreateTableDebugStats>b__29_13(CancellationToken cancellationToken)
+   at Intersect.Client.Framework.Gwen.Control.Data.ValueTableCellDataProvider`1.<>c__DisplayClass1_1.<.ctor>b__3(Task _)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at Intersect.Async.AsyncValueGenerator`1.<DoLoop>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.870 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.870 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.871 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.871 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.871 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.871 [Info] Clearing instance... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.872 [Info] Releasing context lock... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 22:20:13.872 [Info] Released. (1ms)
+
+--------------------------------------------------------------------------------

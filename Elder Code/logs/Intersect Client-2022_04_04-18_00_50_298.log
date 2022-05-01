@@ -1,0 +1,99 @@
+﻿2022-04-04 23:00:50.558 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:51.632 [Info] Connecting to 38.129.153.213:5400...
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:52.080 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:52.155 [Debug] approval Time=8729902 Offset=63784701322168 Real=63784710052070
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:52.155 [Debug] local Time=8729902 Offset=63784701322253 Real=63784710052155
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:52.155 [Debug] real delta=84
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:52.155 [Debug] this.Statistics.Ping=0 NCPing=4
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:52.157 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/38.129.153.213:5400].
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:52.158 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:57.533 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-04-04 23:00:57.814 [Debug] received epp: 8735292
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.914 [Error] Received unhandled exception from Name:Intersect Client.exe
+There are no context policies.
+.
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.915 [Error] InvalidOperationException: Collection was modified; enumeration operation may not execute.
+    Stack:    at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Extensions.EnumerableExtensions.SelectManyRecursive[T](IEnumerable`1 source, Func`2 selector, CancellationToken cancellationToken)
+   at Intersect.Client.Interface.Debugging.DebugWindow.<>c.<CreateTableDebugStats>b__29_13(CancellationToken cancellationToken)
+   at Intersect.Client.Framework.Gwen.Control.Data.ValueTableCellDataProvider`1.<>c__DisplayClass1_1.<.ctor>b__3(Task _)
+   at System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at Intersect.Async.AsyncValueGenerator`1.<DoLoop>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.919 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.919 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.919 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.920 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.920 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.920 [Info] Clearing instance... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.920 [Info] Releasing context lock... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-04 23:01:05.920 [Info] Released. (1ms)
+
+--------------------------------------------------------------------------------

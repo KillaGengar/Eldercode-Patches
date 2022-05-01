@@ -1,0 +1,93 @@
+﻿2022-04-30 00:29:27.555 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:28.655 [Info] Connecting to 38.129.153.213:5400...
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:29.096 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:29.172 [Debug] approval Time=1037447 Offset=63786874331631 Real=63786875369079
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:29.172 [Debug] local Time=1037447 Offset=63786874331724 Real=63786875369172
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:29.173 [Debug] real delta=92
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:29.173 [Debug] this.Statistics.Ping=0 NCPing=7
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:29.175 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/38.129.153.213:5400].
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:29.175 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.394 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.431 [Error] Received unhandled exception from System.Threading.Tasks.ContinuationTaskFromTask.
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.432 [Error] AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread.
+
+Caused By
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+    Stack:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.RemoveAt(Int32 index)
+   at System.Collections.Generic.List`1.Remove(T item)
+   at Intersect.Client.Framework.Content.ContentWatcher.<>c__DisplayClass12_0.<Modify>b__0(Task completedTask)
+   at System.Threading.Tasks.Task.Execute()
+
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.433 [Error] Caused by:
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.433 [Error] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+    Stack:    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.RemoveAt(Int32 index)
+   at System.Collections.Generic.List`1.Remove(T item)
+   at Intersect.Client.Framework.Content.ContentWatcher.<>c__DisplayClass12_0.<Modify>b__0(Task completedTask)
+   at System.Threading.Tasks.Task.Execute()
+
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.435 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.435 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.435 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.436 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.436 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.436 [Info] Clearing instance... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.436 [Info] Releasing context lock... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.436 [Info] Released. (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-30 00:29:33.808 [Debug] received epp: 1041855
+
+--------------------------------------------------------------------------------
+2022-04-30 00:42:49.481 [Debug] StatusChanged: [NetIncomingMessage #854 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2022-04-30 00:42:49.484 [Debug] StatusChanged: [NetIncomingMessage #754 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------

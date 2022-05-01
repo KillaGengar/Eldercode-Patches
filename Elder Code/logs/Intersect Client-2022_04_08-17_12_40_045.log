@@ -1,0 +1,89 @@
+﻿2022-04-08 22:12:40.273 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.424 [Info] Connecting to 38.129.153.213:5400...
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.839 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.904 [Debug] approval Time=1402769 Offset=63785051359043 Real=63785052761813
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.904 [Debug] local Time=1402769 Offset=63785051359135 Real=63785052761904
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.904 [Debug] real delta=91
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.904 [Debug] this.Statistics.Ping=0 NCPing=5
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.906 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/38.129.153.213:5400].
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:41.906 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:46.047 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:46.306 [Debug] received epp: 1406956
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.643 [Error] Received unhandled exception from System.Threading.Tasks.ContinuationTaskFromTask.
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.654 [Error] AggregateException: A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread.
+
+Caused By
+IndexOutOfRangeException: Index was outside the bounds of the array.
+    Stack:    at System.Array.Clear(Array array, Int32 index, Int32 length)
+   at System.Collections.Generic.List`1.RemoveAll(Predicate`1 match)
+   at Intersect.Client.Framework.Content.ContentWatcher.<>c__DisplayClass12_0.<Modify>b__0(Task completedTask)
+   at System.Threading.Tasks.Task.Execute()
+
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.657 [Error] Caused by:
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.657 [Error] IndexOutOfRangeException: Index was outside the bounds of the array.
+    Stack:    at System.Array.Clear(Array array, Int32 index, Int32 length)
+   at System.Collections.Generic.List`1.RemoveAll(Predicate`1 match)
+   at Intersect.Client.Framework.Content.ContentWatcher.<>c__DisplayClass12_0.<Modify>b__0(Task completedTask)
+   at System.Threading.Tasks.Task.Execute()
+
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.658 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.658 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.659 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.659 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.659 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.659 [Info] Clearing instance... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.659 [Info] Releasing context lock... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:12:53.659 [Info] Released. (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-08 22:19:03.485 [Debug] StatusChanged: [NetIncomingMessage #399 10 bytes] [Disconnecting]
+
+--------------------------------------------------------------------------------
+2022-04-08 22:19:03.488 [Debug] StatusChanged: [NetIncomingMessage #400 14 bytes] [Disconnected]
+
+--------------------------------------------------------------------------------

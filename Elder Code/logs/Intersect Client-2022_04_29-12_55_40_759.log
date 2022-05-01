@@ -1,0 +1,87 @@
+﻿2022-04-29 17:55:41.049 [Info] Discovered 0 plugins:
+
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:42.600 [Info] Connecting to 38.129.153.213:5400...
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:43.063 [Info] Connection approved [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:43.139 [Debug] approval Time=2808286 Offset=63786848934761 Real=63786851743048
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:43.139 [Debug] local Time=2808286 Offset=63786848934852 Real=63786851743139
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:43.139 [Debug] real delta=90
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:43.139 [Debug] this.Statistics.Ping=0 NCPing=7
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:43.146 [Debug] Connection established to remote [00000000-0000-0000-0000-000000000000/38.129.153.213:5400].
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:43.146 [Info] Connected [00000000-0000-0000-0000-000000000000].
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:53.000 [Warn] 'Me' is null.
+
+--------------------------------------------------------------------------------
+2022-04-29 17:55:53.930 [Debug] received epp: 2818410
+
+--------------------------------------------------------------------------------
+2022-04-29 17:56:09.761 [Debug] received epp: 2834973
+
+--------------------------------------------------------------------------------
+2022-04-29 17:56:41.651 [Debug] received epp: 2866833
+
+--------------------------------------------------------------------------------
+2022-04-29 17:57:19.532 [Debug] received epp: 2904738
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.081 [Info] Acquiring context lock... (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.081 [Info] Acquired. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.081 [Info] Beginning context dispose. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.082 [Info] GC.SuppressFinalize (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.082 [Info] InternalDispose() completed. (0ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.082 [Info] Clearing instance... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.082 [Info] Releasing context lock... (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.082 [Info] Released. (1ms)
+
+--------------------------------------------------------------------------------
+2022-04-29 18:15:21.082 [Error] NullReferenceException: Object reference not set to an instance of an object.
+    Stack:    at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacketSender packetSender, GameObjectPacket packet)
+   at Intersect.Network.PacketHandlerRegistry.<>c__DisplayClass38_1`2.<CreateWeaklyTypedDelegateForMethodInfo>b__1(IPacketSender packetSender, IPacket packet)
+   at Intersect.Client.Networking.PacketHandler.HandlePacket(IPacket packet)
+   at Intersect.Client.Networking.Network.MySocket_OnDataReceived(IPacket packet)
+   at Intersect.Client.Framework.Network.GameSocket.OnDataReceived(IPacket packet)
+   at Intersect.Client.MonoGame.Network.MonoSocket.Update()
+   at Intersect.Client.Networking.Network.Update()
+   at Intersect.Client.Core.Main.Update(TimeSpan deltaTime)
+   at Intersect.Client.MonoGame.IntersectGame.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Intersect.Client.MonoGame.IntersectGame.MonoGameRunner.Start(IClientContext context, Action postStartupAction)
+   at Intersect.Client.Core.ClientContext.InternalStart()
+   at Intersect.Core.ApplicationContext`2.Start(Boolean lockUntilShutdown)
+
+
+--------------------------------------------------------------------------------
