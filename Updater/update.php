@@ -40,6 +40,11 @@ function scanD($target, $obj) {
 				if (in_array($path, $excludeFiles)) {
 					$skip = true;	
 				}
+				
+				if (strpos($path, ".") == false)
+				{
+					$skip = true;
+				}
 
 				if ($skip == false) {
 					if (in_array($path,$clientExcludeFiles)) {
